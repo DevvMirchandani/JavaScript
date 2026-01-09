@@ -52,3 +52,30 @@ Return type of variables in JavaScript
 
 */
 
+
+// ********************************************************************
+
+// stack vs heap memory
+
+// primitive (stack memory)
+// reference (heap memory)
+
+let myFirstName = "dev"; // stored in stack memory
+let lastName = myFirstName; 
+let Lastname = "Mirchandani"
+console.log(myFirstName);
+console.log(Lastname);
+
+
+let person = {
+  name: "dev",
+  age: 21,
+}; // stored in heap memory
+
+let person2 = person;
+
+person2.age = 22;
+
+console.log(person.age); // 22
+console.log(person2.age); // 22
+
