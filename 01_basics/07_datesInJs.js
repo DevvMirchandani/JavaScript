@@ -26,7 +26,7 @@ console.log(newDate)
 console.log(newDate.getMonth() + 1)
 console.log(newDate.getDay()) 
 
-// '${newDate.getDay()}and the time is ' 
+// `${newDate.getDay()}and the time is ` 
 
 newDate.toLocaleDateString('default',{
     weekday: "long"
