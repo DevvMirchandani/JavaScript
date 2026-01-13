@@ -56,3 +56,29 @@ console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "DevKishan"
+
+}
+
+course.courseInstructor
+
+const {courseInstructor: instructor} = course  // de structure of objects
+console.log(instructor)
+
+// **************** JSon Format for API ******************
+    {
+        "name": "DevKishan",
+        "coursename": "Js in hindi",      // JSon format of API , it is also can be store in arrays [] , example given below
+        "price": "free"
+
+    }
+
+    [
+        {},
+        {},
+        {},
+    ]
