@@ -13,3 +13,4 @@
 })("Dev"); 
 
 
+// next videos tells us about how does JS execute code + call stack 
